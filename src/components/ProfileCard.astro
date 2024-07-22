@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import Menu from "../components/ProfileCardMenu.astro"
 import Footer from "../components/ProfileCardFooter.astro"
 import { SITE_TITLE, SITE_DESCRIPTION, USER_NICKNAME, USER_DESCRIPTION, TRANSITION_API } from "../consts";
+import ProfileCardMenu from "./ProfileCardMenu.astro";
 const {
   name,
   desc,
@@ -22,8 +23,5 @@ const {
       alt="Profile image"
     />
   </div>
-  <div class="profile-info">
-  </div>
-  <Menu />
-  <Footer />
+  <ProfileCardMenu />
 </div>

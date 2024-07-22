@@ -6,3 +6,4 @@ export const SITE_DESCRIPTION = 'Welcome to my website!';
 export const USER_NICKNAME = 'homocat';
 export const USER_DESCRIPTION = '丛雨天下第一';
 export const TRANSITION_API = true;
+export const infoTest = {link: "#"}
